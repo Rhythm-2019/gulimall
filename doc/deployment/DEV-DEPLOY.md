@@ -97,5 +97,7 @@ VSCode Plugin
 
 Nacos
 ```bash
-$ docker run --name nacos -e MODE=standalone -p 8848:8848 -d nacos/nacos-server:latest
+$ docker run --name nacos -e MODE=standalone \ 
+ -p 8848:8848 -p 9848:9848 、 
+-d nacos/nacos-server:v2.0.4
 ```
